@@ -1,5 +1,6 @@
 # mq
 用c++实现的一个简单消息中间件
+
 一、框架
 1.Publisher:消息的生产者，向交换器Exchange发布消息，发送消息时还要指定Routing Key。
 2.Exchange:交换器从生产者那收到消息后，根据Routing Key、Exchange Type和Binding key联合使用，分发消息到queue中。
